@@ -1,76 +1,106 @@
+.page {
+    margin-top: 70px;
+}
+
 .col-1 {
     float: left;
     width: 8.33333333%;
-  }
+}
 
-  .col-2 {
+.col-2 {
     float: left;
     width: 16.666666666%;
-  }
+}
 
-  .col-3 {
+.col-3 {
     float: left;
     width: 25%;
-  }
+}
 
-  .col-4 {
+.col-4 {
     float: left;
     width: 33.33333333%;
-  }
+}
 
-  .col-5 {
+.col-5 {
     float: left;
     width: 41.66666666%;
-  }
+}
 
-  .col-6 {
+.col-6 {
     float: left;
     width: 50%;
-  }
+}
 
-  .col-7 {
+.col-7 {
     float: left;
     width: 58.33333333%;
-  }
+}
 
-  .col-8 {
+.col-8 {
     float: left;
     width: 66.66666666%;
-  }
+}
 
-  .col-9 {
+.col-9 {
     float: left;
     width: 75%;
-  }
+}
 
-  .col-10 {
+.col-10 {
     float: left;
     width: 83.33333333%;
-  }
+}
 
-  .col-11 {
+.col-11 {
     float: left;
     width: 91.66666666%;
-  }
+}
 
-  .col-12 {
+.col-12 {
     float: left;
     width: 100%;
-  }
+}
 
-  .row:before {
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    overflow: auto;
+    top:10px;
+}
+
+.navBarLnk {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    float: left;
+    margin-top: 1%;
+}
+
+
+.navBarLnk:hover {
+    background-color: #555;
+    color: white;
+}
+
+.row:before {
     display: table;
     content: "";
-  }
+}
   
-  .row:after {
+.row:after {
     display: table;
     content: "";
     clear: both;
-  } 
+} 
 
-  * {
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
+}
